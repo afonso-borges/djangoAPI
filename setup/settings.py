@@ -73,7 +73,7 @@ DATABASES = {
         'default': {
             'ENGINE': 'djongo',
             'CLIENT': {
-                "host": "mongodb+srv://dbAfonsoBorges:senhafacil@cadastros.s2fin.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+                "host": "mongodb+srv://<username>:<password>@<atlas>/myFirstDatabase?retryWrites=true&w=majority",
                 "name":"cadastros-clientes",
                 "authMechanism":"SCRAM-SHA-1"
             }  
